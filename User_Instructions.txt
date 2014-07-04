@@ -1,0 +1,22 @@
+use finalproject411;
+select count(*) from population_record_table;
+drop table population_record_table;
+
+-- User Instructions
+
+Once user logs on, user needs 
+1> Read data 
+2> Serialize and deserialize / Load data into database
+3> Data analytics
+4> Load data into database (only after reading data into application)
+5> Data manipulation
+
+
+-- Add required Jar files in dist/lib folder
+beansbinding-1.2.1.jar
+eclipselink-2.3.2.jar
+javax.persistence-2.0.3.jar
+mysql-connector-java-5.1.22.bin.jar
+org.eclipse.persistence.jpa.jpql_1.0.1.jar
+
+
